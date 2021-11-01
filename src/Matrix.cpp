@@ -17,6 +17,16 @@ Matrix::Matrix(const int rows, const int cols, const vector<vector<double>> &val
 {
 }
 
+const int Matrix::getRowCount() const
+{
+    return this->rows;
+}
+
+const int Matrix::getColCount() const
+{
+    return this->cols;
+}
+
 string Matrix::asString() const
 {
   string str("{");

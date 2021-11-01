@@ -14,7 +14,7 @@ string ExprSolver::solve(const string &expr)
   }
   catch (exception &e)
   {
-    // TODO: deal with the exception
+    answer = "Error.";
   }
 
   // Clean internal memory
@@ -33,7 +33,7 @@ void ExprSolver::toPostfix()
 
   for (const Token *token : this->infixExpr)
   {
-    if (token->isNumber())
+    if (token->isNumber() || token->isMatrix())
       this->postfixExpr.push_back(token);
 
     else if (token->isSeparator())

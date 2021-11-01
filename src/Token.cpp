@@ -7,6 +7,11 @@ bool Token::isNumber() const
   return this->type == Token::Type::NUMBER;
 }
 
+bool Token::isMatrix() const
+{
+  return this->type == Token::Type::MATRIX;
+}
+
 bool Token::isOperator() const
 {
   return this->type == Token::Type::OPERATOR_HIGH || this->type == Token::Type::OPERATOR_LOW || this->type == Token::Type::SCI_OPERATOR;

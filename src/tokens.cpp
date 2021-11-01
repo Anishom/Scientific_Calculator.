@@ -45,6 +45,10 @@ const string Operator::PLUS = "+";
 const string Operator::MINUS = "-";
 const string Operator::MUL = "*";
 const string Operator::DIV = "/";
+const string Operator::INV = "inv";
+const string Operator::DET = "det";
+const string Operator::TRN = "trn";
+const string Operator::DOT = "dot";
 
 Operator::Operator(const string name)
     : Token(getOperatorType(name)),
@@ -59,7 +63,8 @@ Operator::operator string() const
 
 bool Operator::isUnaryOperator() const
 {
-  return this->name == SIN || this->name == COS || this->name == TAN || this->name == LOG || this->name == POW || this->name == LN || this->name == EXP;
+  return this->name == SIN || this->name == COS || this->name == TAN || this->name == LOG || this->name == POW || this->name == LN || this->name == EXP ||
+          this->name == INV || this->name == DET || this->name == TRN || this->name == DOT;
 }
 
 bool Operator::isBinaryOperator() const

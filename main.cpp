@@ -25,27 +25,30 @@ void testCalculator()
     struct Test
     {
         string input;
-        double output;
+        string output;
 
-        Test(string input, double output) : input(input), output(output) {}
+        Test(string input, string output) : input(input), output(output) {}
     };
 
     vector<Test> tests = {
-        Test("1+2", 3),
-        Test("4+61", 65),
-        Test("32+8*(7+3)+51+sin(22)+cos(8+3)", 164.356)};
+        // Test("1+2", "3"),
+        // Test("4+61", "65"),
+        // Test("32+8*(7+3)+51+sin(22)+cos(8+3)", "164.356"),
+        Test("{{1,2},{3,4}}+{{4,4},{4,4}}", "{{5,6},{7,8}}"),
 
-    setArithmeticMode();
+        Test("{{1},{3}}-{{2},{4}}", "{{-1},{-1}}"),
+
+        Test("{{1,2}}*{{3},{4}}", "{{11}}"),
+
+        Test("trn{{1,2}}", "{{1},{2}}")
+    };
+
+    setMatrixMode();
 
     for (Test &t : tests)
     {
         stringstream ss;
         string ans = calculate(t.input);
-
-        ss << ans;
-
-        double ans_d;
-        ss >> ans_d;
 
         cout << "input: " << t.input << " expected: " << t.output << " result: " << ans << endl;
     }

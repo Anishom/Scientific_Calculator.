@@ -4,11 +4,27 @@
 #include "../includes/MatrixExprSolver.h"
 using namespace std;
 
+Matrix MatrixExprSolver::transpose(const Matrix &matrix) const
+{
+    Matrix ans(matrix.getColCount(), matrix.getRowCount());
+
+    for (int r(0); r < ans.getRowCount(); r++)
+    {
+        for (int c(0); c < ans.getColCount(); c++)
+        {
+            ans.set(r, c, matrix.get(c, r));
+        }
+    }
+
+    return ans;
+}
+
 void MatrixExprSolver::parse(const string &expr)
 {
   stringstream ss(expr);
 
   char ch;
+    string sciOp;
   bool isInsideMatrix(false);
   vector<vector<double>> values;
 
@@ -62,6 +78,19 @@ void MatrixExprSolver::parse(const string &expr)
       ss.get(ch);
       this->infixExpr.push_back(new Operator(string(1, ch)));
     }
+
+    else if (!ss.eof())
+    {
+        sciOp = "";
+
+        while (!ss.eof() && isalpha(ss.peek()))
+        {
+            ss.get(ch);
+            sciOp += ch;
+        }
+
+        this->infixExpr.push_back(new Operator(sciOp));
+    }
   }
 }
 
@@ -84,6 +113,36 @@ string MatrixExprSolver::solvePostfix() const
 
       if (opToken.isUnaryOperator())
       {
+          Matrix a = temp.top();
+          temp.pop();
+
+          if (op == Operator::DET)
+          {
+              if (a.getRowCount() == a.getColCount())
+              {
+                  //////////
+              }
+              else
+              {
+                  return "ERROR";
+              }
+          }
+          else if (op == Operator::TRN)
+          {
+              Matrix result = transpose(a);
+              temp.push(result);
+          }
+          else if (op == Operator::INV)
+          {
+              if (a.getRowCount() == a.getColCount())
+              {
+                  //////////
+              }
+              else
+              {
+                  return "ERROR";
+              }
+          }
       }
 
       else if (opToken.isBinaryOperator())

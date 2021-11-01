@@ -43,6 +43,10 @@ public:
   static const string MINUS;
   static const string MUL;
   static const string DIV;
+  static const string INV;
+  static const string DET;
+  static const string TRN;
+  static const string DOT;
 
   Operator(const string name);
 
