@@ -23,7 +23,6 @@ public:
   friend const Matrix operator*(const Matrix &A, const Matrix &B);
 
   string asString() const;
-  Matrix Transpose(const Matrix &A) const;
 
   void set(int r, int c, double value);
   double get(int r, int c) const;

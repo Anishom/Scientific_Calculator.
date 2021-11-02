@@ -19,6 +19,37 @@ Matrix MatrixExprSolver::transpose(const Matrix &matrix) const
     return ans;
 }
 
+Matrix MatrixExprSolver::dot(const Matrix &A, const Matrix &B) const
+{
+    Matrix ans(1,1);
+    double sum = 0;
+
+    for (int c(0); c < A.getColCount(); c++)
+    {
+        sum += (A.get(0,c) * B.get(0,c));
+    }
+
+    ans.set(0, 0, sum);
+    return ans;
+}
+
+Matrix MatrixExprSolver::cross(const Matrix &A, const Matrix &B) const
+{
+    Matrix ans(1,3);
+    double temp;
+
+    temp = (A.get(0,2) * B.get(0,1)) - (A.get(0,1) * B.get(0,2));
+    ans.set(0,0,temp);
+
+    temp = (A.get(0,0) * B.get(0,2)) - (A.get(0,2) * B.get(0,0));
+    ans.set(0,1,temp);
+
+    temp = (A.get(0,1) * B.get(0,0)) - (A.get(0,0) * B.get(0,1));
+    ans.set(0,2,temp);
+
+    return ans;
+}
+
 void MatrixExprSolver::parse(const string &expr)
 {
   stringstream ss(expr);
@@ -73,7 +104,7 @@ void MatrixExprSolver::parse(const string &expr)
     else if (ch == ',')
       ss.get(ch);
 
-    else if (ch == '+' || ch == '-' || ch == '*')
+    else if (ch == '+' || ch == '-' || ch == '*' || ch == '.' || ch == 'x')
     {
       ss.get(ch);
       this->infixExpr.push_back(new Operator(string(1, ch)));
@@ -168,6 +199,18 @@ string MatrixExprSolver::solvePostfix() const
         {
           Matrix result = a * b;
           temp.push(result);
+        }
+
+        else if (op == Operator::DOT)
+        {
+            Matrix result = dot(a,b);
+            temp.push(result);
+        }
+
+        else if (op == Operator::CROSS)
+        {
+            Matrix result = cross(a,b);
+            temp.push(result);
         }
       }
     }

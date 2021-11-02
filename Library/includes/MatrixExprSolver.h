@@ -19,4 +19,7 @@ private:
   double determinant(const Matrix &matrix) const;
 
   Matrix inverse(const Matrix &matrix) const;
+
+  Matrix dot(const Matrix &A, const Matrix &B) const;
+  Matrix cross(const Matrix &A, const Matrix &B) const;
 };

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/3rd Semester/Object Oriented Programming/Scientific_Calculator/Library/includes/Token.h
+ostream
+-
+
+E:/3rd Semester/Object Oriented Programming/Scientific_Calculator/Library/includes/calclib.h
+string
+-
+
+E:/3rd Semester/Object Oriented Programming/Scientific_Calculator/Library/includes/tokens.h
+string
+-
+Token.h
+E:/3rd Semester/Object Oriented Programming/Scientific_Calculator/Library/includes/Token.h
+
+E:/3rd Semester/Object Oriented Programming/Scientific_Calculator/Library/main.cpp
+iostream
+-
+vector
+-
+string
+-
+sstream
+-
+cassert
+-
+includes/calclib.h
+E:/3rd Semester/Object Oriented Programming/Scientific_Calculator/Library/includes/calclib.h
+includes/Token.h
+E:/3rd Semester/Object Oriented Programming/Scientific_Calculator/Library/includes/Token.h
+includes/tokens.h
+E:/3rd Semester/Object Oriented Programming/Scientific_Calculator/Library/includes/tokens.h
+

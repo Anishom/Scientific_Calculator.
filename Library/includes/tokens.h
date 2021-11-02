@@ -47,8 +47,9 @@ public:
   static const string DET;
   static const string TRN;
   static const string DOT;
+  static const string CROSS;
 
-  Operator(const string name);
+    Operator(const string name);
 
   bool isUnaryOperator() const;
   bool isBinaryOperator() const;
