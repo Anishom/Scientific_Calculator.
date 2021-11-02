@@ -16,10 +16,6 @@ vector
 ExprSolver.h
 E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/ExprSolver.h
 
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/Calculator.h
-string
--
-
 E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/ExprSolver.h
 vector
 -
@@ -29,66 +25,16 @@ stack
 -
 Token.h
 E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/Token.h
-
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/Matrix.h
-vector
--
-Token.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/Token.h
-
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/MatrixExprSolver.h
-string
--
-stack
--
-vector
--
-ExprSolver.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/ExprSolver.h
-Matrix.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/Matrix.h
-
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/SciCalculator.h
-Calculator.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/Calculator.h
-ExprSolver.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/ExprSolver.h
-ArithmeticExprSolver.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/ArithmeticExprSolver.h
-MatrixExprSolver.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/MatrixExprSolver.h
 
 E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/Token.h
 ostream
 -
 
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/calclib.h
-string
--
-
 E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/tokens.h
 string
 -
 Token.h
 E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/Token.h
-
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/main.cpp
-iostream
--
-vector
--
-string
--
-sstream
--
-cassert
--
-includes/calclib.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/calclib.h
-includes/Token.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/Token.h
-includes/tokens.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/tokens.h
 
 E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/src/ArithmeticExprSolver.cpp
 stack
@@ -107,50 +53,6 @@ E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/Arithmetic
 E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/Token.h
 ../includes/tokens.h
 E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/tokens.h
-
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/src/ExprSolver.cpp
-../includes/ExprSolver.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/ExprSolver.h
-../includes/tokens.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/tokens.h
-
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/src/Matrix.cpp
-../includes/Matrix.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/Matrix.h
-iostream
--
-sstream
--
-
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/src/MatrixExprSolver.cpp
-iostream
--
-sstream
--
-../includes/Matrix.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/Matrix.h
-../includes/tokens.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/tokens.h
-../includes/MatrixExprSolver.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/MatrixExprSolver.h
-
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/src/SciCalculator.cpp
-../includes/SciCalculator.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/SciCalculator.h
-
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/src/Token.cpp
-../includes/Token.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/Token.h
-
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/src/calclib.cpp
-iostream
--
-../includes/calclib.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/calclib.h
-../includes/Calculator.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/Calculator.h
-../includes/SciCalculator.h
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/includes/SciCalculator.h
 
 E:/3rd Semester/Object Oriented Programming/OOP_Calc/Library/src/tokens.cpp
 ../includes/Token.h

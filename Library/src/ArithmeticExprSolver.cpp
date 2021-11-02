@@ -99,7 +99,10 @@ string ArithmeticExprSolver::solvePostfix() const
           result = tan(a * PI / 180.0);
 
         else if (op == Operator::LN)
-          result = log(a);
+          result = log2(a);
+
+        else if (op == Operator::LOG)
+            result = log10(a);
 
         else if (op == Operator::EXP)
           result = exp(a);
@@ -129,6 +132,9 @@ string ArithmeticExprSolver::solvePostfix() const
 
         else if (op == Operator::DIV)
           result = a / b;
+
+        else if (op == Operator::POW)
+            result = pow(a, b);
 
         const Number num(result);
         temp.push(num);
