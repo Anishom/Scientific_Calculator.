@@ -1,4 +1,4 @@
-# Install script for directory: E:/3rd Semester/Object Oriented Programming/Scientific_Calculator
+# Install script for directory: E:/3rd Semester/Object Oriented Programming/OOP_Calc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/3rd Semester/Object Oriented Programming/Scientific_Calculator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/3rd Semester/Object Oriented Programming/OOP_Calc/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator"
+CMAKE_SOURCE_DIR = "E:\3rd Semester\Object Oriented Programming\OOP_Calc"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\3rd Semester\Object Oriented Programming\OOP_Calc\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Scientific_Calculator.dir/depend.make
@@ -68,128 +68,128 @@ include CMakeFiles/Scientific_Calculator.dir/flags.make
 CMakeFiles/Scientific_Calculator.dir/Library/src/ArithmeticExprSolver.cpp.obj: CMakeFiles/Scientific_Calculator.dir/flags.make
 CMakeFiles/Scientific_Calculator.dir/Library/src/ArithmeticExprSolver.cpp.obj: CMakeFiles/Scientific_Calculator.dir/includes_CXX.rsp
 CMakeFiles/Scientific_Calculator.dir/Library/src/ArithmeticExprSolver.cpp.obj: ../Library/src/ArithmeticExprSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/ArithmeticExprSolver.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\ArithmeticExprSolver.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\ArithmeticExprSolver.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\OOP_Calc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/ArithmeticExprSolver.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\ArithmeticExprSolver.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\ArithmeticExprSolver.cpp"
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/ArithmeticExprSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scientific_Calculator.dir/Library/src/ArithmeticExprSolver.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\ArithmeticExprSolver.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\ArithmeticExprSolver.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\ArithmeticExprSolver.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\ArithmeticExprSolver.cpp.i
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/ArithmeticExprSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scientific_Calculator.dir/Library/src/ArithmeticExprSolver.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\ArithmeticExprSolver.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\ArithmeticExprSolver.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\ArithmeticExprSolver.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\ArithmeticExprSolver.cpp.s
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/calclib.cpp.obj: CMakeFiles/Scientific_Calculator.dir/flags.make
 CMakeFiles/Scientific_Calculator.dir/Library/src/calclib.cpp.obj: CMakeFiles/Scientific_Calculator.dir/includes_CXX.rsp
 CMakeFiles/Scientific_Calculator.dir/Library/src/calclib.cpp.obj: ../Library/src/calclib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/calclib.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\calclib.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\calclib.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\OOP_Calc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/calclib.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\calclib.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\calclib.cpp"
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/calclib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scientific_Calculator.dir/Library/src/calclib.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\calclib.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\calclib.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\calclib.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\calclib.cpp.i
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/calclib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scientific_Calculator.dir/Library/src/calclib.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\calclib.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\calclib.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\calclib.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\calclib.cpp.s
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/ExprSolver.cpp.obj: CMakeFiles/Scientific_Calculator.dir/flags.make
 CMakeFiles/Scientific_Calculator.dir/Library/src/ExprSolver.cpp.obj: CMakeFiles/Scientific_Calculator.dir/includes_CXX.rsp
 CMakeFiles/Scientific_Calculator.dir/Library/src/ExprSolver.cpp.obj: ../Library/src/ExprSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/ExprSolver.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\ExprSolver.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\ExprSolver.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\OOP_Calc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/ExprSolver.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\ExprSolver.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\ExprSolver.cpp"
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/ExprSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scientific_Calculator.dir/Library/src/ExprSolver.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\ExprSolver.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\ExprSolver.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\ExprSolver.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\ExprSolver.cpp.i
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/ExprSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scientific_Calculator.dir/Library/src/ExprSolver.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\ExprSolver.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\ExprSolver.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\ExprSolver.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\ExprSolver.cpp.s
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/Matrix.cpp.obj: CMakeFiles/Scientific_Calculator.dir/flags.make
 CMakeFiles/Scientific_Calculator.dir/Library/src/Matrix.cpp.obj: CMakeFiles/Scientific_Calculator.dir/includes_CXX.rsp
 CMakeFiles/Scientific_Calculator.dir/Library/src/Matrix.cpp.obj: ../Library/src/Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/Matrix.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\Matrix.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\Matrix.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\OOP_Calc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/Matrix.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\Matrix.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\Matrix.cpp"
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/Matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scientific_Calculator.dir/Library/src/Matrix.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\Matrix.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\Matrix.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\Matrix.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\Matrix.cpp.i
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scientific_Calculator.dir/Library/src/Matrix.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\Matrix.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\Matrix.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\Matrix.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\Matrix.cpp.s
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/MatrixExprSolver.cpp.obj: CMakeFiles/Scientific_Calculator.dir/flags.make
 CMakeFiles/Scientific_Calculator.dir/Library/src/MatrixExprSolver.cpp.obj: CMakeFiles/Scientific_Calculator.dir/includes_CXX.rsp
 CMakeFiles/Scientific_Calculator.dir/Library/src/MatrixExprSolver.cpp.obj: ../Library/src/MatrixExprSolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/MatrixExprSolver.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\MatrixExprSolver.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\MatrixExprSolver.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\OOP_Calc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/MatrixExprSolver.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\MatrixExprSolver.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\MatrixExprSolver.cpp"
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/MatrixExprSolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scientific_Calculator.dir/Library/src/MatrixExprSolver.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\MatrixExprSolver.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\MatrixExprSolver.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\MatrixExprSolver.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\MatrixExprSolver.cpp.i
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/MatrixExprSolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scientific_Calculator.dir/Library/src/MatrixExprSolver.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\MatrixExprSolver.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\MatrixExprSolver.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\MatrixExprSolver.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\MatrixExprSolver.cpp.s
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/SciCalculator.cpp.obj: CMakeFiles/Scientific_Calculator.dir/flags.make
 CMakeFiles/Scientific_Calculator.dir/Library/src/SciCalculator.cpp.obj: CMakeFiles/Scientific_Calculator.dir/includes_CXX.rsp
 CMakeFiles/Scientific_Calculator.dir/Library/src/SciCalculator.cpp.obj: ../Library/src/SciCalculator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/SciCalculator.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\SciCalculator.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\SciCalculator.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\OOP_Calc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/SciCalculator.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\SciCalculator.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\SciCalculator.cpp"
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/SciCalculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scientific_Calculator.dir/Library/src/SciCalculator.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\SciCalculator.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\SciCalculator.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\SciCalculator.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\SciCalculator.cpp.i
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/SciCalculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scientific_Calculator.dir/Library/src/SciCalculator.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\SciCalculator.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\SciCalculator.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\SciCalculator.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\SciCalculator.cpp.s
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/Token.cpp.obj: CMakeFiles/Scientific_Calculator.dir/flags.make
 CMakeFiles/Scientific_Calculator.dir/Library/src/Token.cpp.obj: CMakeFiles/Scientific_Calculator.dir/includes_CXX.rsp
 CMakeFiles/Scientific_Calculator.dir/Library/src/Token.cpp.obj: ../Library/src/Token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/Token.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\Token.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\Token.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\OOP_Calc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/Token.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\Token.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\Token.cpp"
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/Token.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scientific_Calculator.dir/Library/src/Token.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\Token.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\Token.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\Token.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\Token.cpp.i
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scientific_Calculator.dir/Library/src/Token.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\Token.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\Token.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\Token.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\Token.cpp.s
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/tokens.cpp.obj: CMakeFiles/Scientific_Calculator.dir/flags.make
 CMakeFiles/Scientific_Calculator.dir/Library/src/tokens.cpp.obj: CMakeFiles/Scientific_Calculator.dir/includes_CXX.rsp
 CMakeFiles/Scientific_Calculator.dir/Library/src/tokens.cpp.obj: ../Library/src/tokens.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/tokens.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\tokens.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\tokens.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\OOP_Calc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/src/tokens.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\src\tokens.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\tokens.cpp"
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/tokens.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scientific_Calculator.dir/Library/src/tokens.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\tokens.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\tokens.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\tokens.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\src\tokens.cpp.i
 
 CMakeFiles/Scientific_Calculator.dir/Library/src/tokens.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scientific_Calculator.dir/Library/src/tokens.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\src\tokens.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\tokens.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\src\tokens.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\src\tokens.cpp.s
 
 CMakeFiles/Scientific_Calculator.dir/Library/main.cpp.obj: CMakeFiles/Scientific_Calculator.dir/flags.make
 CMakeFiles/Scientific_Calculator.dir/Library/main.cpp.obj: CMakeFiles/Scientific_Calculator.dir/includes_CXX.rsp
 CMakeFiles/Scientific_Calculator.dir/Library/main.cpp.obj: ../Library/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\main.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\3rd Semester\Object Oriented Programming\OOP_Calc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Scientific_Calculator.dir/Library/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Scientific_Calculator.dir\Library\main.cpp.obj -c "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\main.cpp"
 
 CMakeFiles/Scientific_Calculator.dir/Library/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Scientific_Calculator.dir/Library/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\main.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\main.cpp" > CMakeFiles\Scientific_Calculator.dir\Library\main.cpp.i
 
 CMakeFiles/Scientific_Calculator.dir/Library/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Scientific_Calculator.dir/Library/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\Library\main.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\3rd Semester\Object Oriented Programming\OOP_Calc\Library\main.cpp" -o CMakeFiles\Scientific_Calculator.dir\Library\main.cpp.s
 
 # Object files for target Scientific_Calculator
 Scientific_Calculator_OBJECTS = \
@@ -219,7 +219,7 @@ Scientific_Calculator.exe: CMakeFiles/Scientific_Calculator.dir/build.make
 Scientific_Calculator.exe: CMakeFiles/Scientific_Calculator.dir/linklibs.rsp
 Scientific_Calculator.exe: CMakeFiles/Scientific_Calculator.dir/objects1.rsp
 Scientific_Calculator.exe: CMakeFiles/Scientific_Calculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Scientific_Calculator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\3rd Semester\Object Oriented Programming\OOP_Calc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Scientific_Calculator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Scientific_Calculator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -231,6 +231,6 @@ CMakeFiles/Scientific_Calculator.dir/clean:
 .PHONY : CMakeFiles/Scientific_Calculator.dir/clean
 
 CMakeFiles/Scientific_Calculator.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator" "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator" "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\cmake-build-debug" "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\cmake-build-debug" "E:\3rd Semester\Object Oriented Programming\Scientific_Calculator\cmake-build-debug\CMakeFiles\Scientific_Calculator.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\3rd Semester\Object Oriented Programming\OOP_Calc" "E:\3rd Semester\Object Oriented Programming\OOP_Calc" "E:\3rd Semester\Object Oriented Programming\OOP_Calc\cmake-build-debug" "E:\3rd Semester\Object Oriented Programming\OOP_Calc\cmake-build-debug" "E:\3rd Semester\Object Oriented Programming\OOP_Calc\cmake-build-debug\CMakeFiles\Scientific_Calculator.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Scientific_Calculator.dir/depend
 

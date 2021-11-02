@@ -71,11 +71,56 @@ double MatrixExprSolver::determinant(const Matrix &matrix) const
         temp = (matrix.get(1,1) * matrix.get(2,2)) - (matrix.get(1,2) * matrix.get(2,1));
         ans += (matrix.get(0,0) * temp);
 
-        temp = (matrix.get(1,0) * matrix.get(2,2)) - (matrix.get(1,2) * matrix.get(2,0)) ;
+        temp = (matrix.get(1,2) * matrix.get(2,0)) - (matrix.get(1,0) * matrix.get(2,2)) ;
         ans += (matrix.get(0,1) * temp);
 
-        temp = (matrix.get(1,1) * matrix.get(2,0)) - (matrix.get(1,0) * matrix.get(2,1));
-        ans += (matrix.get(1,2) * temp);
+        temp = (matrix.get(1,0) * matrix.get(2,1)) - (matrix.get(1,1) * matrix.get(2,0));
+        ans += (matrix.get(0,2) * temp);
+    }
+
+    return ans;
+}
+
+Matrix MatrixExprSolver::inverse(const Matrix &matrix) const
+{
+    Matrix ans(matrix.getRowCount(), matrix.getColCount());
+
+    double det = determinant(matrix);
+    double temp;
+
+    if (matrix.getColCount() == 1)
+    {
+        temp = matrix.get(0,0) / det;
+        ans.set(0,0,temp);
+    }
+
+    else if (matrix.getColCount() == 2)
+    {
+        temp = matrix.get(1,1) / det;
+        ans.set(0,0,temp);
+
+        temp = matrix.get(0,0) / det;
+        ans.set(1,1,temp);
+
+        det *= -1;
+
+        temp = matrix.get(0,1) / det;
+        ans.set(0,1,temp);
+
+        temp = matrix.get(1,0) / det;
+        ans.set(1,0,temp);
+    }
+
+    else if (matrix.getColCount() == 3)
+    {
+        for (int r(0); r < ans.getRowCount(); r++)
+        {
+            for (int c(0); c < ans.getColCount(); c++)
+            {
+                temp = ( ( matrix.get(((c+1)%3), ((r+1)%3)) * matrix.get(((c+2)%3), ((r+2)%3)) ) - ( matrix.get(((c+1)%3), ((r+2)%3)) * matrix.get(((c+2)%3), ((r+1)%3)) ) ) / det;
+                ans.set(r,c,temp);
+            }
+        }
     }
 
     return ans;
@@ -200,14 +245,18 @@ string MatrixExprSolver::solvePostfix() const
           }
           else if (op == Operator::INV)
           {
-              if (a.getRowCount() == a.getColCount())
-              {
-                  //////////
-              }
-              else
+              if (a.getRowCount() != a.getColCount())
               {
                   return "ERROR";
               }
+
+              if (!determinant(a))
+              {
+                  return "ERROR";
+              }
+
+              Matrix result = inverse(a);
+              temp.push(result);
           }
       }
 
