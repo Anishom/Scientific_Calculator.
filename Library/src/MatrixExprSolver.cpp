@@ -1,3 +1,4 @@
+#include<iostream>
 #include <sstream>
 #include "../includes/Matrix.h"
 #include "../includes/tokens.h"
@@ -19,17 +20,15 @@ Matrix MatrixExprSolver::transpose(const Matrix &matrix) const
     return ans;
 }
 
-Matrix MatrixExprSolver::dot(const Matrix &A, const Matrix &B) const
+double MatrixExprSolver::dot(const Matrix &A, const Matrix &B) const
 {
-    Matrix ans(1,1);
-    double sum = 0;
+    double ans = 0;
 
     for (int c(0); c < A.getColCount(); c++)
     {
-        sum += (A.get(0,c) * B.get(0,c));
+        ans += (A.get(0,c) * B.get(0,c));
     }
 
-    ans.set(0, 0, sum);
     return ans;
 }
 
@@ -46,6 +45,38 @@ Matrix MatrixExprSolver::cross(const Matrix &A, const Matrix &B) const
 
     temp = (A.get(0,1) * B.get(0,0)) - (A.get(0,0) * B.get(0,1));
     ans.set(0,2,temp);
+
+    return ans;
+}
+
+double MatrixExprSolver::determinant(const Matrix &matrix) const
+{
+    double ans = 0;
+    double temp;
+
+    if (matrix.getColCount() == 1)
+    {
+        ans = matrix.get(0,0);
+    }
+    else if (matrix.getColCount() == 2)
+    {
+        temp = matrix.get(0,0) * matrix.get(1,1);
+        ans += temp;
+
+        temp = matrix.get(0,1) * matrix.get(1,0);
+        ans += temp;
+    }
+    else if (matrix.getColCount() == 3)
+    {
+        temp = (matrix.get(1,1) * matrix.get(2,2)) - (matrix.get(1,2) * matrix.get(2,1));
+        ans += (matrix.get(0,0) * temp);
+
+        temp = (matrix.get(1,0) * matrix.get(2,2)) - (matrix.get(1,2) * matrix.get(2,0)) ;
+        ans += (matrix.get(0,1) * temp);
+
+        temp = (matrix.get(1,1) * matrix.get(2,0)) - (matrix.get(1,0) * matrix.get(2,1));
+        ans += (matrix.get(1,2) * temp);
+    }
 
     return ans;
 }
@@ -151,7 +182,11 @@ string MatrixExprSolver::solvePostfix() const
           {
               if (a.getRowCount() == a.getColCount())
               {
-                  //////////
+                  double temp = determinant(a);
+                  ostringstream result;
+                  result << temp;
+
+                  return result.str();
               }
               else
               {
@@ -210,8 +245,11 @@ string MatrixExprSolver::solvePostfix() const
 
         else if (op == Operator::DOT)
         {
-            Matrix result = dot(a,b);
-            temp.push(result);
+            double temp = dot(a,b);
+            ostringstream result;
+            result << temp;
+
+            return result.str();
         }
 
         else if (op == Operator::CROSS)
