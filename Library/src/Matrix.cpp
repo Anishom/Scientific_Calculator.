@@ -118,3 +118,21 @@ const Matrix operator*(const Matrix &A, const Matrix &B)
   return ans;
 }
 
+const Matrix operator/(const Matrix &A, const Matrix &B)
+{
+    Matrix ans(B.rows, B.cols);
+
+    double div = A.get(0,0);
+    double temp;
+
+    for (int r(0); r < ans.rows; r++)
+    {
+        for (int c(0); c < ans.cols; c++)
+        {
+            temp = B.get(r,c) / div;
+            ans.set(r, c, temp);
+        }
+    }
+
+    return ans;
+}

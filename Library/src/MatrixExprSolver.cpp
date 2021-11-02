@@ -104,7 +104,7 @@ void MatrixExprSolver::parse(const string &expr)
     else if (ch == ',')
       ss.get(ch);
 
-    else if (ch == '+' || ch == '-' || ch == '*' || ch == '.' || ch == 'x')
+    else if (ch == '+' || ch == '-' || ch == '*' || ch == '/' || ch == '.' || ch == 'x')
     {
       ss.get(ch);
       this->infixExpr.push_back(new Operator(string(1, ch)));
@@ -195,10 +195,17 @@ string MatrixExprSolver::solvePostfix() const
           Matrix result = a - b;
           temp.push(result);
         }
+
         else if (op == Operator::MUL)
         {
           Matrix result = a * b;
           temp.push(result);
+        }
+
+        else if (op == Operator::DIV)
+        {
+            Matrix result = a / b;
+            temp.push(result);
         }
 
         else if (op == Operator::DOT)

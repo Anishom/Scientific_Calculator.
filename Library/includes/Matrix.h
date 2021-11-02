@@ -21,6 +21,7 @@ public:
   friend const Matrix operator+(const Matrix &A, const Matrix &B);
   friend const Matrix operator-(const Matrix &A, const Matrix &B);
   friend const Matrix operator*(const Matrix &A, const Matrix &B);
+  friend const Matrix operator/(const Matrix &A, const Matrix &B);
 
   string asString() const;
 
