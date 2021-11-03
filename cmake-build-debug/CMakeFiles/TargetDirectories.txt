@@ -1,3 +1,0 @@
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/cmake-build-debug/CMakeFiles/Scientific_Calculator.dir
-E:/3rd Semester/Object Oriented Programming/OOP_Calc/cmake-build-debug/CMakeFiles/edit_cache.dir

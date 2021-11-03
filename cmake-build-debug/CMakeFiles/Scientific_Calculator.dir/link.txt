@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Scientific_Calculator.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\Scientific_Calculator.dir/objects.a @CMakeFiles\Scientific_Calculator.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Scientific_Calculator.dir/objects.a -Wl,--no-whole-archive -o Scientific_Calculator.exe -Wl,--out-implib,libScientific_Calculator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Scientific_Calculator.dir\linklibs.rsp
